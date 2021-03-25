@@ -1,0 +1,49 @@
+/* Display 
+
+La propiedad mas importante para controlar estructuras. Cada elemento tiene un valor de display por defecto. Usualmente es el block (Bloque) inline (en linea) */
+
+
+div{
+
+    /* todos estaran de la misma forma en vertical y en bloque */
+    display: block;
+
+    /* todos se adaptara a una posicion en linea  */
+    display: inline;
+
+    /* Todos se pondran en linea pero en bloque  */
+
+    display: inline-block;
+}
+
+/* Flex
+
+Flexbox es un contenedor flexible que nos permite poner todos los objetos en forma horizontal  */
+
+
+section{
+
+    /* Lo definimos de la siguiente manera */
+    display: flex;
+
+    /* Para poder darle una direccion al los objetos usamos "Flex-direction" */
+
+    flex-direction:row ;
+
+
+    /* Si nuestros objetos se desvordan del margen de nuestra pagina usaremos "flex-wrap" */
+
+    flex-wrap: wrap;
+
+
+    /* Para poder justificar donde querramos nuestros objetos usamos "justify-content" */
+
+    justify-content: center;
+
+    /* Para alinear de manera vertical todo usamos el "align-items" */
+
+    align-items: center;
+
+
+
+}

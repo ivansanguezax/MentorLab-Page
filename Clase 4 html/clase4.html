@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4</title>
+</head>
+<body>
+
+
+    <!-- Es importante utilizar la etiqueta 
+    
+    <form></form> 
+  
+    para indicar que utilizaremos un formulario, ademas de la semantica y buenas practicas.
+    Dentro de estas etiquetas indicaremos los elementos del Formulario como lo son… 
+
+    <label></label> 
+    
+    que sera como nuestro “Contenedor” en esta ocasión. 
+    
+    dentro de el pondremos la etiqueta  
+    
+    <span></span> 
+    
+    (No es necesario) para colocar un texto haciendo alusión al contenido esperado (nombre, contraseña, fecha etc…) y viene una de las etiquetas importantes la cual es
+    
+    <input> 
+    
+    aqui es importante aclarar que hay muchos tipos de Input, los que veran en este ejemplo son text, password, date, time pero hay muchos mas…
+    Tambien esta el atributo placeholder para colocar un texto como guia dentro de la caja (Input) y este al hacer click sobre el se eliminara. -->
+
+    <label for="nombre">
+        <span>¿Cuál es tu nombre?</span>
+        <input type="text" id="nombre">
+    </label>
+
+    <label for="inicio-platzi">
+        <span>¿Qué día comenzaste en Mentor Lab?</span>
+        <input type="date" id="inicio-mentor">
+    </label>
+
+
+    <label for="horario">
+        <span>¿En qué horario estudias?</span>
+        <input type="time" id="horario">
+    </label>
+    
+
+</body>
+</html>

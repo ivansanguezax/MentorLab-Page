@@ -1,0 +1,161 @@
+/* Jerarquias 
+
+Cada selector tiene su lugar y su especificidad hay cinco que definen el nivel de especificidad de un selecctor
+
+1. !important
+2. Ruline style
+3. #id
+4. .class
+5. etiquetas (elementos, pseudoelementos) */
+
+
+
+
+h1{
+    color: red !important;
+}
+#id{
+    color: white;
+}
+
+
+
+/* Medidas Absolutas
+
+Pixeles: al usar esta medida, esta no cambiara. sin importar el tamaño del proyecto 
+
+
+Medidas Relativas 
+
+em: se utiliza para hacer referencia al tamaño actual de la fuente que ha sido establecida en el navegador 
+
+rem: representeea el tamaño del(fontsize) del elemento raiz.
+
+
+Medidas flexibles 
+
+Vw: Se calcula con respecto al ancho del viewport 
+
+Vh: Se calcula con respecto al alto del viewport */
+
+
+div{
+    width: 100px;
+    height: 1rem;
+
+}
+
+
+
+/* 
+Fuentes 
+
+Las fuentes nosotros las podemos sacar de la pagina autorizada de Google https://fonts.google.com/ donde encontraremos diferentes tipos de fuentes para nuestros proyectos 
+
+para poder poner una fuente a nuestro documento tenemos que hacer lo siguiente */
+
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+
+    /* Para darle un size */
+
+    font-size: 25px;
+
+    /* Para darle un grosor de letra */
+
+    font-weight:bold;
+
+    /* para darle un interlineado de texto a texto */
+
+    line-height: 12px;
+
+    /* para alinear el texto donde querramos / */
+
+    text-align: center;
+
+}
+
+
+/* box model
+
+Para poder dar el margen a un objeto usamos la declaracion de "Margin" asi  */
+
+
+section{
+
+    /* Margen arriba */
+    margin-top: 20px;
+
+    /* Margen a la derecha */
+    margin-right: 20px;
+
+    /* Margen abajo */
+    margin-bottom: 10px;
+
+    /* Margen a la izquierda */
+    margin-left: 10px;
+}
+
+
+/* Para poder dar un borde a un objeto usamos "Border" */
+
+
+button{
+
+
+    /* Borde en la parte superior */
+    border-top: 2px solid blue;
+
+
+    /* Borde a la izquierda */
+    border-left: 2px solid red ;
+
+    /* Borde a la derecha */
+    border-right: 2px solid orange ;
+
+    /* Borde abajo */
+    border-bottom: 2px solid green ;
+
+
+}
+
+
+/* Para poder dar un margen adentro usamos la declaracion "Padding" */
+
+
+h2{
+
+    /* Padding arriba */
+    padding-top: 20px;
+
+
+    /* Padding derecha */
+    padding-right: 20px;
+
+
+    /* Padding abajo */ 
+    padding-bottom: 20px;
+
+    /* Padding izquierda */
+    padding-left: 20px;
+
+}
+
+/* Variables 
+
+Para nosotros poder insertar variables en css necesitaremos declarar el "root" */
+
+
+:root{
+
+    /* Para declarar una variable en css nostros debemos poner primero dos guiones seguido de lo que queremos que quede como una variable */
+
+    --variable-color: #fff;
+
+    /* Ojo no se olviden del punto y coma ";" */
+
+}
+
+
+

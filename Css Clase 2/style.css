@@ -1,0 +1,34 @@
+/* Selectores 
+
+Estos se utilizan para poder seleccionar elementos en html que queremos cambiar los estilos 
+
+Existen 3
+
+Selector de elementos
+Selecciona elementos en html en funcion del nombre del elemento  */
+
+h2{
+    color: gray;
+}
+
+/* Selector universal
+
+Este es el * que seleccionara todos los elemento en html */
+
+*{
+    color: red;
+}
+
+/* Selector de clase 
+Esta es la forma mas comun de aplicar estilos. Para que las clases funcionen debemos asociar a la etiqueta que estamos cambiando los estilos dentro de la etiqueta 
+
+Para poder insertar un clase o apuntar a una clase nuestra hoja de estilo lo tenemos que realizar es insertar primero un punto "." y seguido del nombre de mi clase
+*/
+
+
+.Aqui-va-el-nombre{
+
+    /* Aqui adentro empezamos a configurar nuestro atributo de HTML */
+    color: red;
+
+}

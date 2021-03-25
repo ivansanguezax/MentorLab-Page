@@ -1,0 +1,8 @@
+/* Para poder declarar en css nosotros debemos comenzar definiendo un selector seguido de una apertura y cierre de llaves para poder hacer los cambios en esa etiqueta */
+
+h1{
+    /* Dentro del selecctor lo que procederemos a realizar es hacer los cambios declarando propiedades y valores */
+
+    color: red;
+
+}
