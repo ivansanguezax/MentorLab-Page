@@ -11,3 +11,60 @@
 
 }
 
+body{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+/* Cabecera */
+
+.header{
+    background-color: var(--azul-oscuro);
+    height: 115px;
+    padding: 0 130px;
+    color: var(--blanco-claro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+   width: 100%;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header a{
+    color: var(--blanco-claro);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 20px;
+
+}
+.menu{
+    height: inherit;
+}
+
+.header ol{
+
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a:hover{
+
+    color: var(--verde-claro);
+}
+
