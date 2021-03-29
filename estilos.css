@@ -68,3 +68,97 @@ ol{
     color: var(--verde-claro);
 }
 
+
+/* Home */
+
+.home{
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Assets/img/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.home h1{
+    color: var(--blanco-claro);
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.home a{
+    color: var(--blanco-claro);
+    text-decoration: none;
+    margin-top: 150px;
+    border: solid 2px var(--blanco-claro);
+    padding: 0.5em 3em;
+    border-radius: 30px;
+}
+
+.home a:hover{
+    background-color: var(--blanco-claro);
+    color: var(--azul-oscuro);
+}
+
+
+/* Cursos */
+
+
+.clases {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .botones {
+    margin-right: 60px;
+    display: inline-block;
+    background-color: var(--blanco-oscuro);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .botones:hover {
+    background-color: var(--amarillo);
+  }
+  .botones .boton figure {
+    padding: 10px;
+  }
+  .botones .boton p {
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  .botones a {
+    text-decoration: none;
+    color: var(--negro);
+  }
+  
+  .botones-mas {
+    width: 150px;
+  
+    display: inline-block;
+    background-color: var(--amarillo);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .botones-mas:hover {
+    background-color: var(--amarillo);
+  }
+  .botones-mas .boton-mas figure {
+    padding-top: 30px;
+  }
+  .botones-mas .boton-mas p {
+    padding-top: 25px;
+    color: var(--blanco-claro);
+    font-family: "Roboto", sans-serif;
+  }
+  .botones-mas a {
+    text-decoration: none;
+    color: var(--negro);
+  }
+  
