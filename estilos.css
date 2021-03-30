@@ -8,7 +8,7 @@
     --verde-icono: #00B592;
     --amarillo: #FFBE58;
     --rojo: #E0474E;
-
+    --celeste-claro: #EFF7FF;
 }
 
 body{
@@ -162,3 +162,105 @@ ol{
     color: var(--negro);
   }
   
+  .logros{
+    background-color: var(--celeste-claro);
+    text-align: center;
+    height: 328px;
+    padding-top: 40px;
+  }
+  
+  .logros h1{
+    font-size: 45px;
+    margin: 0;
+  }
+  .numeros{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    align-items: center;
+  }
+
+  .cursos,
+  .estudiantes, 
+  .instructores{
+    padding-right: 190px;
+  }
+  .cursos h2{
+    color: var(--azul-claro);
+    font-size: 40px;
+    margin: 0;
+  }
+  .cursos p,
+  .estudiantes p, 
+  .instructores p, 
+  .leccion p{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .estudiantes h2{
+    color: var(--verde-icono);
+    font-size: 40px;
+    margin: 0
+  }
+  .instructores h2{
+    color: var(--amarillo);
+    font-size: 40px;
+    margin: 0
+  }
+  .leccion h2{
+    color: var(--rojo);
+    font-size: 40px;
+    margin: 0
+  }
+
+
+  /* Mentores */
+
+.mentores{
+  text-align: center;
+  margin-top: 120px;
+}
+.mentores h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.tarjetas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjetas .tarjeta{
+  width: 270px;
+  height: 338px;
+  margin-right: 138px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.100)),url(./Assets/img/mentor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--blanco-claro);
+  border-radius: 10px;
+
+}
+
+.tarjeta-final{
+  width: 270px;
+  height: 338px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.100)),url(./Assets/img/mentor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--blanco-claro);
+  border-radius: 10px;
+}
+
+.tarjeta-texto{
+
+  position: relative;
+  top: 270px;
+  right: 70px;
+}
+.tarjeta-texto h3{
+
+  font-size: 14px;
+}
