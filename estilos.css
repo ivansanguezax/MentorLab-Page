@@ -125,10 +125,10 @@ ol{
   .botones:hover {
     background-color: var(--amarillo);
   }
-  .botones .boton figure {
+  .botones .boton-cursos figure {
     padding: 10px;
   }
-  .botones .boton p {
+  .botones .boton-cursos p {
     padding-top: 10px;
     font-family: "Roboto", sans-serif;
   }
@@ -263,4 +263,88 @@ ol{
 .tarjeta-texto h3{
 
   font-size: 14px;
+}
+
+/* Precios */
+
+.precio{
+  text-align: center;
+  margin-top: 120px;
+}
+.precio h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+.tarjetas-precio{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.precio-tarjeta{
+
+  width: 330px;
+  height: 300;
+  background-color: var(--blanco-oscuro);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 50px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+.precio-tarjeta-final{
+  width: 330px;
+  height: 300;
+  background-color: var(--blanco-oscuro);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.opcion{
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 20px;
+  color: #4F5665;
+}
+.opcion img{
+
+  width: 10%;
+  margin-right: 5px;
+}
+
+.boton-select{
+  margin: 90px 0 50px;
+}
+.boton{
+  text-decoration: none;
+  background-color: none;
+  padding: 0.5em 2em;
+  color: var(--rojo);
+  font-family: inherit;
+  font-size: 100%;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid var(--rojo);
+}
+
+.boton:hover{
+  background-color: var(--rojo);
+  color: var(--blanco-claro);
+}
+
+/* footer */
+
+
+footer{
+  height: 160px;
+  background-color: var(--azul-oscuro);
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer img{
+  
+  width: 20%;
 }
