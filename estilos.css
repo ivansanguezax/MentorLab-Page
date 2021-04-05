@@ -258,7 +258,6 @@ ol{
 
   position: relative;
   top: 270px;
-  right: 70px;
 }
 .tarjeta-texto h3{
 
@@ -347,4 +346,98 @@ footer{
 footer img{
   
   width: 20%;
+}
+
+
+/* Responsiva */
+
+.contenedor{
+  max-width: 1024px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+/* Media queris */
+
+@media screen and (max-width: 1023px){
+
+.contenedor{
+  margin: 0 15px;
+}
+
+.botones{
+  margin-right: 15px;
+}
+
+.cursos,
+.estudiantes,
+.instructores{
+  padding-right: 50px;
+}
+
+.tarjetas .tarjeta{
+  margin-right: 50px;
+  width: 200px;
+}
+.tarjetas .tarjeta-final{
+  width: 200px;
+}
+
+.precio-tarjeta{
+  width: 250px;
+  margin-right: 10px;
+}
+.precio-tarjeta-final{
+  width: 250px;
+}
+
+}
+
+@media screen and (max-width: 850px){
+
+  .header{
+    display: block;
+    padding-top: 15px;
+  }
+  .logo img{
+    width: 200px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .botones{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .botones-mas{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .boton-cursos figure,
+  .boton-mas figure,
+  .boton-cursos p,
+  .botones-mas p{
+    margin: 0;
+  }
+
+
+
+
 }
