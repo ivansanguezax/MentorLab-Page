@@ -39,6 +39,23 @@ ol{
     padding: 0;
     list-style: none;
 }
+ul{
+  list-style: none;
+}
+
+
+nav li ul {
+  display: none;
+  position: relative;
+
+}
+
+nav li:hover ul {
+  display: block;
+
+}
+
+
 
 .header a{
     color: var(--blanco-claro);
@@ -256,7 +273,7 @@ ol{
 
 .tarjeta-texto{
 
-  position: relative;
+  position: relative; 
   top: 270px;
 }
 .tarjeta-texto h3{
@@ -436,8 +453,120 @@ footer img{
   .botones-mas p{
     margin: 0;
   }
+}
 
+@media screen and (max-width: 670px){
 
+  .clases{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  .botones{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  .botones-mas{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .boton-cursos figure,
+  .boton-mas figure,
+  .boton-cursos p,
+  .boton-mas p{
+    margin: 0;
+  }
+
+  .mentores{
+    margin-top: 0;
+  }
+  .mentores h1{
+    margin: 0 0 35px;
+  }
+  .tarjetas{
+    display: flex;
+    flex-direction: column;
+  }
+  .tarjetas .tarjeta{
+    margin: 15px 0 0 0;
+    width: 250px;
+  }
+  .tarjetas .tarjeta-final{
+    margin-top: 15px;
+    width: 250px;
+  }
+  .tarjetas-precio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .precio-tarjeta{
+    margin-right: 0;
+    margin-top: 15px;
+  }
+  .precio-tarjeta-final{
+    margin-top: 15px;
+  }
+  .cursos,
+  .estudiantes,
+  .instructores{
+    padding-right: 20px;
+  }
+
+}  
+
+@media screen and (max-width: 425px){
+  .logros{
+    height: auto;
+    margin: 20px 0;
+  }
+  .numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cursos,
+  .estudiantes,
+  .instructores{
+    padding-right: 0;
+
+  }
+  .leccion{
+    margin-bottom: 25px;
+  }
+  footer img{
+    width: 200px;
+  }
+  .logo img{
+    padding-left: 15px;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+
+  .header a{
+    padding: 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 300px){
+  .header a{
+    padding: 0 5px;
+  }
 }
