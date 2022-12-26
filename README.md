@@ -8,13 +8,13 @@ Se realizará un proyecto para todo el curso el cual estará creado completament
 ## Herramientas 🛠️ 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) 
 
-## Proyecto en Figma
+## Proyecto en Figma 🖌️
 
 [Proyecto del curso - Mentor Lab Page](https://www.figma.com/file/MwBAS3duMYlibdiakmCkrA/Mentor-Lab-Page?node-id=0%3A1http:// "Proyecto del curso - Mentor Lab Page")
 
 
 
-## Notion del Curso
+## Notion del Curso 📲
 
 [Notion Desarrollo Web Basico](https://www.notion.so/ivansanguezax/Desarrollo-Web-B-sico-ef0764ee4aa14546bc8dc84f78b6449b "Notion Desarrollo Web Basico")
 
